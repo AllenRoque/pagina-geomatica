@@ -1,0 +1,27 @@
+.header {
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  a {
+    display: block;
+    font-family: "Rubik Spray Paint", cursive;
+    color: rgb(241, 230, 230);
+    font-size: 3em;
+    margin-left: 20px;
+    text-decoration: none;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-weight: bold;
+    li {
+      margin: 0 20px 0 40px;
+      .nav {
+        font-family: "Roboto", sans-serif;
+        color: black;
+        font-size: 1.5em;
+      }
+    }
+  }
+}

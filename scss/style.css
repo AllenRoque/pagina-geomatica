@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik+Spray+Paint&display=swap");
+.header {
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+}
+.header a {
+  display: block;
+  font-family: "Rubik Spray Paint", cursive;
+  color: rgb(241, 230, 230);
+  font-size: 3em;
+  margin-left: 20px;
+  text-decoration: none;
+}
+.header ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  font-weight: bold;
+}
+.header ul li {
+  margin: 0 20px 0 40px;
+}
+.header ul li .nav {
+  font-family: "Roboto", sans-serif;
+  color: black;
+  font-size: 1.5em;
+}
+
+.main {
+  height: 90%;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.main .main_titulo {
+  font-weight: bold;
+  color: #eee;
+}
+.main .main_lista {
+  list-style: none;
+  padding: 0;
+  margin-top: 5em;
+}
+.main .main_lista .main_lista-elemento {
+  margin-bottom: 2em;
+  font-size: 2em;
+}
+.main .main_lista .main_lista-elemento a {
+  color: #eee;
+  text-decoration: none;
+}
+.main .main_p {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+.main .main_p .main_p_one {
+  width: 30em;
+  height: 30em;
+  border-radius: 20px;
+  text-align: justify;
+  background-image: url("https://img.freepik.com/foto-gratis/sombra-hoja-aislada-fondo-blanco-espacio-escribir-texto_23-2148162854.jpg");
+}
+.main .main_p .main_p_one h1 {
+  padding-top: 15px;
+  text-align: center;
+}
+.main .main_p .main_p_one p {
+  padding: 50px;
+  font-size: 20px;
+}
+.main .main_p .main_p_two {
+  width: 30em;
+  height: 30em;
+}
+.main .main_p .main_p_two img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+.main .main_o {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .main_o .main_o_one {
+  width: 50vw;
+  background-color: #eee;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-align: justify;
+  padding: 20px;
+}
+.main .main_o .main_o_one h1 {
+  text-align: center;
+}
+.main .main_o .main_o_two img {
+  width: 30vw;
+  border-radius: 10px;
+}
+
+.main_content {
+  display: flex;
+  flex-direction: column;
+}
+.main_content :first-child {
+  margin-top: 25px;
+}
+.main_content div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.main_content div img {
+  width: 500px;
+  height: 300px;
+}
+
+.footer {
+  height: 10%;
+  text-align: center;
+  background-color: black;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+}
+.footer a {
+  display: block;
+  padding: 15px 0 0 0;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(236, 224, 224);
+}
+
+html {
+  height: 100vh;
+  background-image: url("../img/background.png");
+}
+
+.body {
+  height: 100%;
+}/*# sourceMappingURL=style.css.map */
